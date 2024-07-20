@@ -1,0 +1,29 @@
+.container{
+    margin-top: 10rem;
+    border: 1px solid gray;
+    width: 20rem;
+    height: 10rem;
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+
+}
+
+.counter{
+    font-size:x-large;
+}
+
+.btn button{
+    margin: 10px;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgb(33, 2, 63);
+    color:  white;
+}
+
