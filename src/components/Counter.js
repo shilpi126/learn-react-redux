@@ -14,6 +14,14 @@ const Counter = () => {
         dispatch({type:"decrement"})
     }
 
+    const handleIncrementBy5 = () => {
+        dispatch({type:"incrementBy5"})
+    }
+
+    const handleDecrementBy5 = () => {
+        dispatch({type:"decrementBy5"})
+    }
+
 
 
   return (
@@ -22,6 +30,10 @@ const Counter = () => {
         <div className='btn'>
             <button onClick={handleIncrement}>Increment</button>
             <button onClick={handleDecrement}>decrement</button>
+        </div>
+        <div className='btn'>
+        <button onClick={handleIncrementBy5}>Increment</button>
+        <button onClick={handleDecrementBy5}>decrement</button>
         </div>
     </div>
   )
